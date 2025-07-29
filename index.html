@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rk's Real Estate <br> Platform</h1>
+        <nav>
+            <ul class="ra">
+                <li><a href="#listings">Property Listings</a></li>
+                
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="image/download.jpeg" alt="" class="banner">
+
+    <main>
+             <h2>Property Listings:</h2> <br>
+        <section id="listings" class="pro">
+            <div class="property" id="property1">
+                <img src="image/bt.jpeg" alt=""  class="pro3">
+                <h3>Beautiful Family Home</h3>
+                <p>Location: Springfield</p>
+                <p>Price: Rs:350,000</p>
+                <button class="inquire-btn"><a href="need.html" class="inquire-btn">Inquire</a></button>
+            </div>
+
+            <div class="property" id="property3">
+                 <img src="image/row.jpeg" alt="" class="pro3">
+                <h3>Beautiful Family Home</h3>
+                <p>Location: Springfield</p>
+                <p>Price: Rs:350,000</p>
+                <button class="inquire-btn"><a href="need.html" class="inquire-btn">Inquire</a></button>
+            </div>
+            <div class="property" id="property4">
+                 <img src="image/vill.png" alt="" class="pro3">
+                <h3>Beautiful Family Home</h3>
+                <p>Location: Springfield</p>
+                <p>Price: Rs:350,000</p>
+                <button class="inquire-btn"><a href="need.html" class="inquire-btn">Inquire</a></button>
+            </div>                     
+            <div class="property" id="property4">
+                 <img src="image/ap.jpeg" alt=""  class="pro3">
+                <h3>Beautiful Apertment Home</h3>
+                <p>Location: Springfield</p>
+                <p>Price: Rs:350,000</p>
+                <button class="inquire-btn"><a href="need.html" class="inquire-btn">Inquire</a></button>
+            </div> 
+            <!-- More property listings can be added here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 RK's Real Estate Platform. All rights reserved.</p>
+        <div id="contact">
+            <h2>Contact Us</h2>
+                <form id="emailForm" action="mailto:rajkumar.senthilvel@gmail.com" method="POST" enctype="text/plain">
+        <label for="userEmail">Your Email:</label>
+        <input type="email" id="userEmail" name="userEmail" required placeholder="you@example.com" class="input"> <br>
+        <label for="userMessage">Message:</label>
+        <textarea id="userMessage" name="userMessage" required placeholder="Type your message" class="textarea"></textarea>
+        <br>
+        <button type="submit" class="submit">Send Email</button>
+        
+    </form>
+    <br>
+            <p>Email: info@rkrealestate.com</p>
+            <p>Phone: 0431-4567890</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

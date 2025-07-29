@@ -1,0 +1,144 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    height: 200px;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+/* Property Listings */
+.property-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.property {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(33% - 40px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.property img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.property h3 {
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .property {
+        width: calc(50% - 40px);
+   
+    }
+}
+.pro{
+         display: flex;
+}
+@media (max-width: 480px) {
+    .property {
+        width: 100%;
+    }
+}
+.textarea{
+    margin-top: 30px;
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input{
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 30px;
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.ra{
+    display: flex;
+   margin-left: -20px;
+    list-style: none;
+    justify-content:space-evenly ;
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.trr{
+    margin-top: -20px;
+}
+.pro3{
+    height: 130px;
+}
+.inquire-btn{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
